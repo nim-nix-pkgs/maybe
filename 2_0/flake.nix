@@ -11,6 +11,7 @@
   inputs.src-maybe-2_0.ref   = "refs/tags/2.0";
   inputs.src-maybe-2_0.owner = "superfunc";
   inputs.src-maybe-2_0.repo  = "maybe";
+  inputs.src-maybe-2_0.dir   = "";
   inputs.src-maybe-2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

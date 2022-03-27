@@ -11,6 +11,7 @@
   inputs.src-maybe-master.ref   = "refs/heads/master";
   inputs.src-maybe-master.owner = "superfunc";
   inputs.src-maybe-master.repo  = "maybe";
+  inputs.src-maybe-master.dir   = "";
   inputs.src-maybe-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
